@@ -1,0 +1,39 @@
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #21222A;
+  padding: 1rem 2rem;
+  height: 90px;
+}
+
+nav .nav-title {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+nav .logo {
+  width: 35px;
+}
+
+nav h2 {
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: #61DAFB;
+}
+
+nav h3 {
+  font-weight: 600;
+  color: #DEEBF8;
+}
