@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
 
@@ -8,11 +8,12 @@ body {
   padding: 0;
 }
 
+/* NAV BAR */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #21222A;
+  background: #21222a;
   padding: 1rem 2rem;
   height: 90px;
 }
@@ -30,10 +31,46 @@ nav .logo {
 nav h2 {
   font-weight: 700;
   letter-spacing: -0.05em;
-  color: #61DAFB;
+  color: #61dafb;
 }
 
 nav h3 {
   font-weight: 600;
-  color: #DEEBF8;
+  color: #deebf8;
 }
+/* END OF NAV BAR */
+
+/* MAIN CONTENT */
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #282d35;
+  padding: 0 2rem;
+  background-image: url(../src/images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+main > h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+}
+
+main > ul li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  padding-block: 10px; 
+}
+
+main ul li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+/* END OF MAIN CONTENT */
